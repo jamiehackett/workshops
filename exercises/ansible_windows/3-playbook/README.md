@@ -262,4 +262,4 @@ You are ready to automate!
 ```
 <!-- {% endraw %} -->
 <br><br>
-[Click here to return to the Ansible for Windows Workshop](../README.md)
+[Click here to return to the Ansible for Windows Workshop](https://github.com/jamiehackett/workshops/tree/devel/exercises/ansible_windows/README.md)
