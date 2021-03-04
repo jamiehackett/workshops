@@ -261,4 +261,4 @@ The authentication settings are particularly important and you will need
 to review them and decide which method is best for your needs.
 
 <br><br>
-[Click here to return to the Ansible for Windows Workshop](../readme.md)
+[Click here to return to the Ansible for Windows Workshop]((https://github.com/jamiehackett/workshops/tree/devel/exercises/ansible_windows/README.md)
