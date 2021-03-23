@@ -7,12 +7,10 @@
 
 * [Objective](#objective)
 * [Guide](#guide)
-* [The Apache-configuration Role](#the-apache-configuration-role)
+* [Create a Notification Template](#create-a-notification-template)
 * [Create a Template with a Survey](#create-a-template-with-a-survey)
-  * [Create Template](#create-template)
-  * [Add the Survey](#add-the-survey)
+  * [Add the Notification](#add-the-notification)
 * [Launch the Template](#launch-the-template)
-* [What About Some Practice?](#what-about-some-practice)
 
 ## Objective
 
