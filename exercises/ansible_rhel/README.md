@@ -54,9 +54,10 @@ Having said that, the exercises themselves should take roughly 4-5 hours. The fi
 * [Exercise 2.3 - Projects & job templates](2.3-projects)
 * [Exercise 2.4 - Surveys](2.4-surveys)
 * [Exercise 2.5 - Notifications](2.5-notifications)
-* [Exercise 2.5 - Role based access control](2.5-rbac)
-* [Exercise 2.6 - Workflows](2.6-workflows)
-* [Exercise 2.7 - Wrap up](2.7-wrap)
+* [Exercise 2.6 - Schedules](2.6-schedules)
+* [Exercise 2.7 - Role based access control](2.7-rbac)
+* [Exercise 2.8 - Workflows](2.8-workflows)
+* [Exercise 2.9 - Wrap up](2.9-wrap)
 
 ## Supplemental Exercises
 
