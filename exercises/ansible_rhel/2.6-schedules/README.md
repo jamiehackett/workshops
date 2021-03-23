@@ -1,45 +1,29 @@
-# Exercise - Notifications
+# Exercise - Schedules
 
 ## Table Contents
 
 * [Objective](#objective)
 * [Guide](#guide)
-* [Create a Notification Template](#create-a-notification-template)
-* [Create a Template with a Survey](#create-a-template-with-a-survey)
-  * [Add the Notification](#add-the-notification)
-* [Launch the Template](#launch-the-template)
+* [Create a Schedule](#create-a-schedule)
 
 ## Objective
 
-Demonstrate the use of Ansible Tower [notifications feature](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html). A Notification is a manifestation of the notification template; for example, when a job fails, a notification is sent using the configuration defined by the notification template.
+Demonstrate the use of Ansible Tower [schedule feature](https://docs.ansible.com/ansible-tower/latest/html/userguide/scheduling.html). 
 
 ## Guide
 
-You have installed Apache on all hosts in the previous job combining that with a survey. Now we’re going to ensure a notification is sent into a slack channel when this job is successfully ran. This is what you're going do:
+If you remember on excercise 2.3 you created an "Install Apache" job template, one of the playbook tasks on that template was to ensure that firewalld was installed and enabled on all hosts. Now we are going utilize a schedule to run this job template on regular basis. This is what you're going do:
+
+* Create a schedule for the **Install Apache** template.
 
 
-> **Note**
->
-> **For the purposes of todays workshop, we have already created the Slack bot needed for notifications to be sent from Ansible Tower.**
+### Create a Schedule
 
-
-
-* Create a notification template.
-
-* Assign a notification template to the Job Template we just created in the previous excercise.
-
-* Launch the job **Template**
-
-* View a notification in the "general" slack channel.
-
-
-### Create a Notification template
-
-Now you create a new notfication template.
+Now you need to create a new schedule for the **Install Apache** template.
 
 #### Create Notification Template
 
-* Go to **Notifications**, click the plus green button.
+* Go to the **Install Apache** job template, click the schedules button.
 
 * Fill out the following information:
 
@@ -49,43 +33,40 @@ Now you create a new notfication template.
     <th>Value</th>
   </tr>
   <tr>
-    <td>ORGANIZATION</td>
-    <td>Default</td>
+    <td>NAME</td>
+    <td>Firewall Enable</td>
   </tr>
   <tr>
-    <td>TYPE</td>
-    <td>Slack</td>
+    <td>START DATE</td>
+    <td>Today</td>
   </tr>
   <tr>
-    <td>DESTINATION CHANNELS</td>
-    <td>#general</td>
+    <td>START TIME</td>
+    <td>Now</td>
   </tr>
   <tr>
-    <td>TOKEN</td>
-    <td>Ask in the google meet chat for the token.</td>
+    <td>LOCAL TIME ZONE</td>
+    <td>Europe/London</td>
+ </tr>
+  <tr>
+    <td>REPEAT FREQUENCY</td>
+    <td>Hour</td>
+  </tr>
+   <tr>
+    <td>EVERY</td>
+    <td>1</td>
+  </tr>
+   <tr>
+    <td>END</td>
+    <td>Never</td>
+  </tr>
 </table>
 
 * Click **SAVE**
 
-> **Warning**
->
-> **Do not run the template yet!**
+After about 1 hour you should see a notification from the Ansible Tower bot in Slack that the job has started, and another message when it finishes.
 
-#### Add the Notification
-
-* Click into a job template that you've previously created - for example Install Apache, click the **NOTIFICATIONS** button
-
-* On the right side of **Slack Alert** tick the following boxes:
-* START
-* SUCCESS
-* FAILURE
-
-
-### Launch the Template
-
-Now launch **Install Apache** job template.
-
-After launching you should see a notification from the Ansible Tower bot in Slack that the job has started, and another message when it finishes.
+Feel free to edit the timings on the schedule to test this feature. 
 
 ---
 **Navigation**
