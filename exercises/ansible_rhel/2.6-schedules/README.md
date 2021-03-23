@@ -71,5 +71,6 @@ Feel free to edit the timings on the schedule to test this feature.
 ---
 **Navigation**
 <br>
+[Previous Exercise](../2.5-notifications) - [Next Exercise](../2.7-rbac)
 
-[Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
+[Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md#section-2---ansible-tower-exercises)
