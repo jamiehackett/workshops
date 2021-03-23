@@ -32,7 +32,7 @@ Now you create a new notfication template.
 
 #### Create Notification Template
 
-* Go to **Notifications**, click the !f[plus](images/green_plus.png) button/
+* Go to **Notifications**, click the !f[plus](images/green_plus.png) button.
 
 * Fill out the following information:
 
