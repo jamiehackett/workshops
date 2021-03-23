@@ -15,11 +15,18 @@ Demonstrate the use of Ansible Tower [notifications feature](https://docs.ansibl
 
 ## Guide
 
-You have installed Apache on all hosts in the job you just ran along with a survey. Now we’re going to ensure notifications when this job is successfully ran are sent into a slack chat. This is what you're going do:
+You have installed Apache on all hosts in the previous job combining that with a survey. Now we’re going to ensure a notification is sent into a slack channel when this job is successfully ran. This is what you're going do:
+
+
+> **Note**
+>
+> **For the purposes of todays workshop, we have already created the Slack bot needed for notifications to be sent from Ansible Tower.**
+
+
 
 * Create a notification template.
 
-* Assign a notification template to the Template we just created in the previous excercise.
+* Assign a notification template to the Job Template we just created in the previous excercise.
 
 * Launch the job **Template**
 
