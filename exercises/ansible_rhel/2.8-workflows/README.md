@@ -302,6 +302,6 @@ You can also execute curl on the control host, pointing it towards the nodes and
 ---
 **Navigation**
 <br>
-[Previous Exercise](../2.5-rbac) - [Next Exercise](../2.7-wrap)
+[Previous Exercise](../2.7-rbac) - [Next Exercise](../2.9-wrap)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md#section-2---ansible-tower-exercises)
