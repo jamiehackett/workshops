@@ -90,5 +90,6 @@ After launching you should see a notification from the Ansible Tower bot in Slac
 ---
 **Navigation**
 <br>
+[Previous Exercise](../2.4-surveys) - [Next Exercise](../2.6-schedules)
 
-[Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
+[Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md#section-2---ansible-tower-exercises)
