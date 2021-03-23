@@ -1,8 +1,5 @@
 # Exercise - Notifications
 
-**Read this in other languages**:
-<br>![uk](../../../images/uk.png) [English](README.md),  ![japan](../../../images/japan.png)[日本語](README.ja.md), ![brazil](../../../images/brazil.png) [Portugues do Brasil](README.pt-br.md), ![france](../../../images/fr.png) [Française](README.fr.md), ![Español](../../../images/col.png) [Español](README.es.md).
-
 ## Table Contents
 
 * [Objective](#objective)
@@ -87,10 +84,4 @@ After launching you should see a notification from the Ansible Tower bot in Slac
 **Navigation**
 <br>
 
-{% if page.url contains 'ansible_rhel_90' %}
-[Previous Exercise](../1.4-variables) - [Next Exercise](../../ansible_rhel_90/6-system-roles/)
-{% else %}
-[Previous Exercise](../2.3-projects) - [Next Exercise](../2.5-rbac)
-{% endif %}
-<br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
