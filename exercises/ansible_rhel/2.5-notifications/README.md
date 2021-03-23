@@ -79,10 +79,6 @@ Now you create a new notfication template.
 * FAILURE
 
 
-* Click **+ADD**
-
-* In the same way add a second **Survey Prompt**
-
 ### Launch the Template
 
 Now launch **Install Apache** job template.
