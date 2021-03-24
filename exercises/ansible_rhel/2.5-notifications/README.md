@@ -32,6 +32,11 @@ You have installed Apache on all hosts in the previous job combining that with a
 
 * View a notification in the "general" slack channel.
 
+### Join the slack channel 
+
+For this example to work, please join the slack channel using this link: https://join.slack.com/t/esbansibleworkshop/shared_invite/zt-o9rzheld-cVKeNUTCqWZJLfVSqiddsQ 
+
+
 
 ### Create a Notification template
 
