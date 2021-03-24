@@ -52,6 +52,10 @@ Now you create a new notfication template.
     <td>ORGANIZATION</td>
     <td>Default</td>
   </tr>
+   <tr>
+    <td>NAME</td>
+    <td>Slack alert</td>
+  </tr>
   <tr>
     <td>TYPE</td>
     <td>Slack</td>
